@@ -1,0 +1,126 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Header Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+     background-color: #00274C; 
+    
+    /* background-image: url("./images/header_bgi_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;  
+    opacity: 0.85; */ 
+
+}
+
+header .logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 50px;
+    background-color: #004080;
+    color: white;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+
+.hero h1 {
+    margin-top: 20px;
+    font-size: 2.5em;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Section Styles */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+section h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    padding: 20px;
+    background-color: #00274C;
+    color: white;
+    text-align: center;
+}
+
+footer .social-media a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+} 
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: auto;
+} 
+
+blockquote, blockquote img{ 
+    padding-bottom: 10px;
+    padding-top: 0;
+}
+
+#legacy img{
+    height: 600px;
+    width: auto;
+}
+
+#key-moments img{
+    
+    width: 600px;
+    height: auto;
+    padding-bottom: 20px;
+}
