@@ -6,7 +6,7 @@ This repository contains the **Captain America Tribute Page** project, developed
 This tribute page is dedicated to **Steve Rogers, aka Captain America**, and highlights his journey, key moments, iconic quotes, and legacy. 
 
 ## 🚀 Live Demo
-*You can check the live demo<a href="https://gpl-gowthamchand.github.io/CODSOFT/">here</a>* 
+*You can check the live demo<a href="https://gpl-gowthamchand.github.io/CODSOFT/"> here</a>* 
 
 ## 🛠️ Technologies Used
 - **HTML** – For structuring the webpage
